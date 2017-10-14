@@ -2,27 +2,65 @@
 
 <html lang="en">
 <head>
-    <meta charset="utf-8"> 
-    <title>Crystal Collector Game</title>
-    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+	<meta charset="utf-8"> 
+	<title>Crystal Collector Game</title>
+	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
 </head>
 
 <body>
-	
-	<h1>Crystal Game</h1>
+	<div id = "wraper">
 
-	<div>
-		<img id="yellowJem" src="assets\images\Jewel-Yellow.png">
-		<img id="greenJem" src="assets\images\Jewel-Green.png">
-		<img id="blueJem" src="assets\images\Jewel-Blue.png">
-		<img id="redJem" src="assets\images\Jewel-Red.png">
+
+		<div id = "header">
+			<h1>Crystal Game</h1>
+		</div>
+
+
+		<div id = "instructions">
+			<p>You will be given a random number at the start of the game.</p>
+			<br>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points for your total score.</p>
+			<br>
+			<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+			<br>
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			<br>
+			<p>Each time when the game starts, the game will change the values of each crystal.</p>
+		</div>
+
+
+		<div id = "matchNum">
+			<h3>Match this number</h3>
+			<h2>Random number</h2>
+		</div>
+
+
+		<div id = "myScore">
+			<h3>Your total score is:</h3>
+			<h2>Display my score</h2>
+		</div>
+
+
+		<div id="cristals">
+			<img id="blueCrystal" src="assets\images\blue-crystal.png">
+			<img id="purpleCrystal" src="assets\images\purple-crystal.png">
+			<img id="redCrystal" src="assets\images\red-crystal.png">
+			<img id="yellowCrystal" src="assets\images\yellow-crystal.png">
+		</div>
+
+
+		<div id = "scoreBoard">
+			<h3>Wins: </h3>
+			<h3>Losses: </h3>
+		</div>
+
+
 	</div>
 
 
 
 
-
-<script type="text/javascript" src="C:\Users\David\Homework4\week-4-game\assets\javascript\game.js"></script>
+	<script type="text/javascript" src="C:\Users\David\Homework4\week-4-game\assets\javascript\game.js"></script>
 
 </body>
 

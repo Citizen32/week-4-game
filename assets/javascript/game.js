@@ -19,15 +19,19 @@ If the game ends update wins or losses.
 reset values on jem, but not on score.*/
 
 
-var redJem = Math.floor((Math.random() * 12) + 1);
-var yellowJem = Math.floor((Math.random() * 12) + 1);
-var blueJem = Math.floor((Math.random() * 12) + 1);
-var greenJem = Math.floor((Math.random() * 12) + 1);
+$(document).ready(function(){
+
+var blueCrystal = Math.floor((Math.random() * 12) + 1);
+var purpleCrystal = Math.floor((Math.random() * 12) + 1);
+var redCrystal = Math.floor((Math.random() * 12) + 1);
+var yellowCrystal = Math.floor((Math.random() * 12) + 1);
 
 var scoreToMatch = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
-
 
 var wins = 0;
 var losses = 0;
 var total = 0;
+
+});
+
 
